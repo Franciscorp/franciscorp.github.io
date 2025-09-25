@@ -9,6 +9,26 @@
           <hr class="star-light" />
           <span class="skills">{{ site.skills }}</span>
         </div>
+
+        <div class="footer-col col-md-4">
+          <h3>{{ site.title }}</h3>
+          <img class="img-responsive" src="img/profile.png" alt="profile-pic" />
+        </div>
+        <div class="footer-col col-md-4">
+          <h3>{{ site.footer.social }}</h3>
+          <ul class="list-inline">
+            {% for network in site.social %}
+            <li>
+              <a href="{{ network.url }}" class="btn-social btn-outline"><i
+                  class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
+            </li>
+            {% endfor %}
+
+            {% include extras/resume_li.html %}
+            
+          </ul>
+        </div>
+
       </div>
     </div>
   </div>

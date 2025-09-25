@@ -1,5 +1,5 @@
 # Site settings
-title: Portfolio
+title: Francisco Pinto
 email: franciscorp1994@hotmail.com
 url: https://franciscorp.github.io/
 description: "Computer Engineer with experience in Full Stack and Mobile Development, specializing in C#, .NET, SQL, and REST API integration. Passionate about development and problem-solving challenges."
@@ -29,16 +29,12 @@ color:
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
-  #primary: 8a2be2      # Electric purple (accent, gaming vibe)
-  #primary-rgb: "138,43,226"
-  #secondary: 00ced1    # Dark cyan (complementary accent)
-  #secondary-dark: 121212 # Almost black (background / dark tone)
 
 # Footer settings
 footer:
   copyright: Dr. Henry Jekyll
   location: Location
-  social: Around the Web
+  social: Usefull Links
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -49,6 +45,7 @@ social:
     url: https://github.com/Franciscorp
   - title: itch-io
     url: https://franciscorp.itch.io/
+
 
 # Postal address (add as many lines as necessary)
 address:
